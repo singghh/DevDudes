@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-btn{
+    background-color:#de2c4d;
+    color:white;
+    font-weight: bold;
+    padding:6px 1em;
+    border-radius:12px;
+    box-shadow: 0px 10px 14px -7px #de0029; 
+    transition: transform 0.3s ease-in-out;
+    transition-duration: 300ms;
+}
+.primary-btn:hover{
+    transform: scale(1.1);
+}
+.perspective-1000{
+    perspective: 1000px;
+}
+.preserve-3d{
+    transform-style:preserve-3d;
+}
+.rotate-y-180{
+    transform:rotateY(180deg);
+}
+.backface-hidden{
+    backface-visibility: hidden;
+}
