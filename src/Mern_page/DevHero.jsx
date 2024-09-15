@@ -56,7 +56,7 @@ function DevHero() {
   ];
   return (
     <div className="bg-[#071236] h-full w-full lg:pt-10">
-      <div className="relative h-[100vh]">
+      <div className="relative">
         <div className="flex md:flex-row w-full flex-col justify-center items-center">
           <div className="flex-1 mt-20">
             <h1 className="text-6xl font-bold md:text-8xl text-white mx-5">
@@ -92,7 +92,7 @@ function DevHero() {
                   to="/features"
                 >
                   {" "}
-                  Explore Features{" "}
+                  👉 Explore Features{" "}
                 </Link>
               </div>
             </div>
