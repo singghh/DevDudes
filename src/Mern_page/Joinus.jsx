@@ -38,7 +38,7 @@ function Joinus() {
                 What to get updates ?
               </h2>
               <a
-                href="https://discord.gg/TB2yM6RF"
+                href="https://discord.gg/upq7EDUvcX"
                 className="text-md text-center font-semibold font-mono cursor-pointer hover:underline"
               >
                 {" "}
