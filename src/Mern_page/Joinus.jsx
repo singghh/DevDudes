@@ -25,7 +25,7 @@ function Joinus() {
         <div className="bg-[#2b3f81] text-white rounded-lg p-4 max-w-sm mx-auto sm:mt-10 mt-4 ">
           <div className="flex items-center space-x-4 justify-center">
             <div>
-              <a href="https://discord.gg/TB2yM6RF">
+              <a href="https://discord.gg/upq7EDUvcX">
                 <img
                   className="w-20 h-20 cursor-pointer hover:scale-110"
                   src={Discord}
