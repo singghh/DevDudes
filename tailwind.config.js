@@ -22,8 +22,9 @@ export default {
         },
       },
       animation: {
-        "gradient-x": "gradient-x 15s ease infinite",
-        shine: "shine 1.5s infinite linear",
+        "gradient-x": "gradient-x 3s ease infinite",
+        shine: "shine 1.5s ease-in-out infinite",
+        float: "float 20s ease-in-out infinite",
       },
       keyframes: {
         "gradient-x": {
@@ -37,8 +38,13 @@ export default {
           },
         },
         shine: {
-          "0%": { transform: "translateX(-100%)" },
           "100%": { transform: "translateX(100%)" },
+        },
+        float: {
+          "0%, 100%": { transform: "translate(0, 0)" },
+          "25%": { transform: "translate(10px, -10px)" },
+          "50%": { transform: "translate(-10px, -20px)" },
+          "75%": { transform: "translate(-20px, 10px)" },
         },
       },
     },
