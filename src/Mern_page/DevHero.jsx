@@ -81,19 +81,21 @@ function DevHero() {
                 ))}
               </div>
             </div>
-            <div className="m-4 p-4 relative text-center ">
-              <div className="relative z-10 md:my-4">
-                <h1 className=" text-white font-semibold md:text-2xl text-2xl">
-                  Want to know what we provide
-                </h1>
-                <br />
-                <Link
-                  className=" text-white  border p-2 rounded-md hover:shadow-md hover:box-decoration-slice"
-                  to="/features"
-                >
-                  {" "}
-                  👉 Explore Features{" "}
-                </Link>
+            <div className="m-4 p-4 relative text-center">
+              <div className="relative z-10 md:my-4 p-6 bg-gradient-to-r rounded-lg shadow-lg overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-r animate-gradient-x"></div>
+                <div className="relative z-10">
+                  <h1 className="text-white font-bold md:text-3xl text-2xl mb-4 animate-pulse">
+                    Want to know what we provide?
+                  </h1>
+                  <Link
+                    className="inline-block text-white border-2 border-white px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:bg-white hover:text-purple-600 hover:shadow-xl animate-bounce mt-2"
+                    to="/features"
+                  >
+                    👉 Explore Features
+                  </Link>
+                </div>
+                <div className="absolute top-0 left-0 w-full h-full animate-shine"></div>
               </div>
             </div>
           </div>

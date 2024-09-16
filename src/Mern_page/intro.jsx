@@ -1,7 +1,15 @@
+import React, { useState } from "react";
 import What from "../assets/devdudesimgs/whatis.gif";
-function intro() {
+
+function Intro() {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
-    <div className="bg-[#2b3f81] pt-20 pb-20 pl-12 pr-12 max-w-6xl mx-auto flex flex-row-reverse md:mt-20 rounded-md items-center flex-wrap sm:flex-nowrap gap-y-5 mt-0">
+    <div
+      className="relative bg-gradient-to-br from-indigo-900 via-blue-900 to-purple-900 pt-20 pb-20 pl-12 pr-12 max-w-6xl mx-auto flex flex-row-reverse md:mt-20 rounded-lg items-center flex-wrap sm:flex-nowrap gap-y-5 mt-0 shadow-lg animate-gradient-x border border-opacity-30 border-blue-300 overflow-hidden cursor-pointer transform transition-transform duration-300 hover:scale-105"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
       <div className="text-white ">
         {/* <p className='md:text-4xl  text-2xl pb-3 font-semibold'>What is DevDudes?</p> */}
         <h1 className="text-5xl font-extrabold text-yellow-400 relative pb-4">
@@ -27,4 +35,5 @@ function intro() {
     </div>
   );
 }
-export default intro;
+
+export default Intro;
